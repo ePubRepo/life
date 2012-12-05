@@ -7,9 +7,9 @@
 #include <iostream>
 using namespace std;
 
-#include "SimulationSpeedSelection.h"
-#include "console.h"
-#include "simpio.h"
+#include "./SimulationSpeedSelection.h"
+#include "./StanfordCPPLib/console.h"
+#include "./StanfordCPPLib/simpio.h"
 
 SimulationSpeedSelection::SimulationSpeedSelection() {
     this->getSimulationSpeed();

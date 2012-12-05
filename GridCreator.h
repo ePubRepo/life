@@ -7,10 +7,10 @@
 #ifndef GRIDCREATOR_H_
 #define GRIDCREATOR_H_
 
-#include <grid.h>
+#include <./grid.h>
 #include <iostream>
 #include <string>
-#include "InputSetup.h"
+#include "./InputSetup.h"
 
 class GridCreator {
  public:

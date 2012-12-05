@@ -8,12 +8,12 @@
 #include <string>
 using namespace std;
 
-#include "InputSetup.h"
+#include "./InputSetup.h"
 
-#include "console.h"  // required of all files that contain the main function
-#include "simpio.h"  // for getLine
+#include "./StanfordCPPLib/console.h"  // required of all files that contain the main function
+#include "./StanfordCPPLib/simpio.h"  // for getLine
 
-#include "GridCreator.h"
+#include "./GridCreator.h"
 
 InputSetup::InputSetup() {
     this->setInputSetupChoice();

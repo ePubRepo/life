@@ -9,7 +9,7 @@
 
 #include <iostream>
 #include <string>
-#include "grid.h"
+#include "./StanfordCPPLib/grid.h"
 
 enum InputSetupChoiceSelection {
     SEED_RANDOMLY,

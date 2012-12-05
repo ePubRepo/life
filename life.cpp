@@ -9,17 +9,17 @@
 #include <string>
 using namespace std;
 
-#include "console.h"  // required of all files that contain the main function
-#include "simpio.h"  // for getLine
+#include "./StanfordCPPLib/console.h"  // required of all files that contain the main function
+#include "./StanfordCPPLib/simpio.h"  // for getLine
 
-#include "life-constants.h"  // for kMaxAge
-#include "life-graphics.h"  // for class LifeDisplay
+#include "./life-constants.h"  // for kMaxAge
+#include "./life-graphics.h"  // for class LifeDisplay
 
-#include "InputSetup.h"  // initial setup (random board or file)
+#include "./InputSetup.h"  // initial setup (random board or file)
 
-#include "grid-constants.h"  // grid management
-#include "GridCreator.h"
-#include "GridManager.h"
+#include "./grid-constants.h"  // grid management
+#include "./GridCreator.h"
+#include "./GridManager.h"
 
 static void waitForEnter(string message) {
     cout << message;

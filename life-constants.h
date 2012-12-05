@@ -1,12 +1,10 @@
-/**
- * File: life-constants.h
- * ----------------------
- * Defines those constants which are shared by both the
- * life-graphics module and the main life module.
- */
+//
+//  File: life-constants.h
+//
+//  Copyright 2012 <EB/Stanford Lib>
 
-#ifndef _life_constants_h_
-#define _life_constants_h_
+#ifndef LIFE_CONSTANTS_H_
+#define LIFE_CONSTANTS_H_
 
 /**
  * Both the graphics module and the main life module need to agree
@@ -16,4 +14,4 @@
 
 const int kMaxAge = 12;
 
-#endif
+#endif  // LIFE_CONSTANTS_H_

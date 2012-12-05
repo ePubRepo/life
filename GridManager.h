@@ -9,10 +9,10 @@
 
 #include <iostream>
 #include <string>
-#include "grid.h"
-#include "InputSetup.h"
-#include "SimulationSpeedSelection.h"
-#include "life-graphics.h"
+#include "./grid.h"
+#include "./InputSetup.h"
+#include "./SimulationSpeedSelection.h"
+#include "./life-graphics.h"
 
 class GridManager {
  public:

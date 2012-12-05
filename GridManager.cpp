@@ -4,8 +4,8 @@
 //
 //  Copyright 2012 <EB>
 
-#include "GridManager.h"
-#include "simpio.h"
+#include "./GridManager.h"
+#include "./simpio.h"
 
 GridManager::GridManager(Grid<int> initialGrid, LifeDisplay &lDisplay) {
     this->currentGrid = initialGrid;

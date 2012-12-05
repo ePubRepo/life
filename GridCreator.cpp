@@ -9,12 +9,12 @@
 #include <string>
 using namespace std;
 
-#include "GridCreator.h"
-#include "grid-constants.h"
-#include "GridManager.h"
-#include "random.h"
-#include "InputSetup.h"
-#include "stdio.h"
+#include "./GridCreator.h"
+#include "./grid-constants.h"
+#include "./GridManager.h"
+#include "./StanfordCPPLib/random.h"
+#include "./InputSetup.h"
+#include "./stdio.h"
 
 GridCreator::GridCreator(const InputSetupChoice &iSetupChoice) {
     if (iSetupChoice.usetInputSetupChoiceSelection == INPUT_FILE) {
